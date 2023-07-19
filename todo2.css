@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg,#153677,#4e085f);
+    padding: 10px;
+}
+.todolist{
+    width: 100%;
+    max-width: 540px;
+    margin: 100px auto 20px;
+    background: #fff;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+.todolist h2{
+    color: #002765;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+
+}
+input{
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    font-weight: 14px;
+     border: none;
+    background: transparent;
+}
+.btnadd{
+    padding: 16px 50px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    background: #ff5945;
+    color: #fff;
+    text-transform: capitalize;
+}
+.item{
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    margin: 30px;
+}
+.editbtn ,.deletebtn{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.editbtn{
+    background-color: #8db3f1;
+    color: #fff;
+    text-transform: capitalize;
+    transition: 1.2s ease;
+}
+.editbtn:hover{
+    background-color: #002765;
+}
+.deletebtn{
+    background-color: #f79494;
+    color: #fff;
+    text-transform: capitalize;
+    transition: 1.2s ease;
+}
+.deletebtn:hover{
+    background-color: #ff5945;
+}
